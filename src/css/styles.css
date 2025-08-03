@@ -209,3 +209,24 @@ button[type='submit']:hover {
   letter-spacing: 0.04em;
   margin: 0;
 }
+
+#load-more-btn {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 125px;
+  height: 40px;
+  background: #4e75ff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 20px auto;
+}
+
+#load-more-btn:hover {
+  background-color: #6c8cff;
+}
